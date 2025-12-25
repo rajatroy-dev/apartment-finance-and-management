@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * Custom 404 Page
+ */
+
+// Exit if accessed directly.
+defined('ABSPATH') || exit;
+
+get_header();
+
+$container = get_theme_mod('understrap_container_type');
+?>
+
+<section class="mt-5 d-flex justify-content-center align-items-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-center">
+					<h2 class="d-flex justify-content-center align-items-center gap-2 mb-4">
+						<span class="display-1 fw-bold">4</span>
+						<i class="bi bi-exclamation-circle-fill text-danger display-4"></i>
+						<span class="display-1 fw-bold bsb-flip-h">4</span>
+					</h2>
+					<h3 class="h2 mb-2">Oops! You're lost.</h3>
+					<p class="mb-5">The page you are looking for was not found.</p>
+					<a class="btn btn-primary px-5" href="<?php echo get_home_url(); ?>" role="button">Back to Home</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

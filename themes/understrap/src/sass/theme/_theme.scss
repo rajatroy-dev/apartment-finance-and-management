@@ -1,0 +1,27 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+.login {
+	h1 {
+		a {
+			background-image: none;
+			background-size: 0;
+			color: $primary;
+			height: auto;
+			font-size: inherit;
+			font-weight: inherit;
+			line-height: initial;
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			width: initial;
+			text-indent: 0;
+			outline: initial;
+			overflow: hidden;
+			display: block;
+		}
+	}
+}
+
+.language-switcher {
+	display: none;
+}
